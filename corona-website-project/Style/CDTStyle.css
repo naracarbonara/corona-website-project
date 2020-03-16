@@ -83,13 +83,12 @@
 }
 
 #allCountriesHeader{
-    font-size: 150%;
+    font-size: 2em;
 }
 
 .allCountriesStatisticHead{
     /* width: 20%; */
-    font-size: 140%;
-    border: 2px solid red;
+    font-size: 1.2em;
 }
 
 .countryTableRow{
@@ -108,22 +107,22 @@
     right: 0;
     top: 10%;
     width: 60%;
-    background: rgb(0, 0, 0);
     text-align: center;
     border-radius: 20px;
     margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.932);
 }
 
 .countryHeader{
     color: rgb(255, 255, 255);
-    font-size: 2.6em;
+    font-size: 2em;
     padding: 2%;
 }
 
 .countryTableHead{
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     color: snow;
-    font-size: 60%;
+    font-size: 50%;
     font-weight: 300;
     padding: 2px 10px;
 }

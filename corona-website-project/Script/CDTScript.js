@@ -70,7 +70,6 @@ axios.get('https://covid-ca.azurewebsites.net/api/covid/countries', {
         sum += data[i].recovered;        
     }
     wwsRecovered.innerText = sum.toString();
-    
     // Getting MK statistics
     let mkStatisticInfo;
     for (let i = 0; i < data.length; i++) {
