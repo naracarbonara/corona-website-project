@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#nav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+#alert{
+    height: 50%;
+}
+
+.navLink{
+    padding: 1%;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.navLink:hover{
+    background-color: rgb(0, 182, 0);
+}
+
+#headerContainer{
+    text-align: center;
+    padding: 2%;
+}
+
+#header{
+    font-size: 200%;
+}
+
+.statisticContainer{
+    width: 70%;
+    background-color: rgba(38, 81, 88, 0.384);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px 5px 40px 5px;
+    margin-bottom: 4%;
+}
+
+.statisticHeader{
+    font-size: 200%;
+    font-weight: bolder;
+    padding: 1%;
+}
+
+.tableContainer{
+    padding: 2%;
+}
+
+.statistickHead{
+    font-size: 120%;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.statisticTable{
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+    table-layout: fixed;
+}
+
+.statisticValues{
+    font-size: 120%;
+}
+
+#countriesTableContainer{
+    padding: 1%;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: rgba(43, 42, 42, 0.247); */
+}
+
+#allCountriesHeaderContainer{
+    text-align: center;
+}
+
+#allCountriesHeader{
+    font-size: 150%;
+}
+
+.allCountriesStatisticHead{
+    /* width: 20%; */
+    font-size: 140%;
+    border: 2px solid red;
+}
+
+.countryTableRow{
+    border: 2px solid black;
+    padding: 2px 10px;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+/* Pop up classes ------------------- */
+.countryInfoContainer{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    width: 60%;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.countryHeader{
+    color: rgb(255, 255, 255);
+    font-size: 2.6em;
+    padding: 2%;
+}
+
+.countryTableHead{
+    border: 2px solid rgb(0, 0, 0);
+    color: snow;
+    font-size: 60%;
+    font-weight: 300;
+    padding: 2px 10px;
+}
+
+.closeCountryInfo{
+    margin-bottom: 2%;
+}
+
+.popup{
+    padding: 10px;
+    background: whitesmoke;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 8px 8px 8px 0px;
+}

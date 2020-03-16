@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style/CDTStyle.css">
+    <link rel="stylesheet" href="./Style/CoronaVirusInfoStyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="nav">
+        <a class="navbar-brand text-light" href="CoronaDataTrack.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link text-success navLink" href="Info.html">Corona virus information</a>
+                <a class="nav-item nav-link text-success navLink" href="#">Precautions</a>
+                <a class="nav-item nav-link text-success navLink" href="#">Symptoms</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="btnContainer">
+        <button type="button" class="btn btn-info btn-lg btn-block spaceBetween" id="generalInfoBtn">General Coronavirus Information</button>
+            <div id="generalInfoContainer">
+                <p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+                <p>Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and has not been previously identified in humans.</p>
+                <p>Coronaviruses are zoonotic, meaning they are transmitted between animals and people. Detailed investigations found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans. Several known coronaviruses are circulating in animals that have not yet infected humans. </p>
+                <p>Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death. </p>
+                <p>Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.</p>
+            </div>
+
+        <button type="button" class="btn btn-info btn-lg btn-block spaceBetween" id="infoBasicsBtn">Coronavirus Disease 2019 Basics</button>
+        <div id="infoBasicsContainer">
+      <br>
+      <div class="section">
+          <h5>What is a novel coronovirus?</h5>
+          <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+      </div>
+      <hr style="width: 90%;">
+      <div class="dropdown">
+          <p>A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold. A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis.</p>
+      </div>
+
+      <div class="section">
+          <h5>Why is the disease being called coronavirus disease 2019, COVID-19?</h5>
+          <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+      </div>
+      <hr style="width: 90%;">
+      <div class="dropdown">
+          <p>On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”. There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) best practiceexternal icon for naming of new human infectious diseases.</p>
+      </div>
+
+
+      <div class="section">
+          <h5>Why might someone blame or avoid individuals and groups(create stigma) because of COVID-19?</h5>
+          <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+  
+      </div>
+      <hr style="width: 90%;">
+      <div class="dropdown">
+          <p>People in the U.S. may be worried or anxious about friends and relatives who are living in or visiting areas where COVID-19 is spreading. Some people are worried about the disease. Fear and anxiety can lead to social stigma, for example, towards Chinese or other Asian Americans or people who were in quarantine. Stigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads, a need to blame someone, fears about disease and death, and gossip that spreads rumors and myths. Stigma hurts everyone by creating more fear or anger towards ordinary people instead of the disease that is causing the problem.</p>
+      </div>
+
+
+      <div class="section">
+          <h5>How can people help stop stigma reletaed to COVID-19?</h5>
+          <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+  
+      </div>
+            <hr style="width: 90%;">
+
+      <div class="dropdown">
+          <p>People can fight stigma and help, not hurt, others by providing social support. Counter stigma by learning and sharing facts. Communicating the facts that viruses do not target specific racial or ethnic groups and how COVID-19 actually spreads can help stop stigma.</p>
+      </div>
+        </div>
+
+        <button type="button" class="btn btn-info btn-lg btn-block spaceBetween" id="spreadBtn">How It Spreads</button>
+        <div id="spreadContainer">
+            <br>
+            <div class="section">
+                <h5>What is the source of the virus?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people. </p>
+            </div>
+      
+            
+            <div class="section">
+                <h5>How does the virus spread?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>This virus was first detected in Wuhan City, Hubei Province, China. The first infections were linked to a live animal market, but the virus is now spreading from person-to-person. It’s important to note that person-to-person spread can happen on a continuum. Some viruses are highly contagious (like measles), while other viruses are less so. The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.</p>
+            </div>
+            <div class="section">
+                <h5>Can someone who has COVID-19 spread the illness to others?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>The virus that causes COVID-19 is spreading from person-to-person. Someone who is actively sick with COVID-19 can spread the illness to others. That is why CDC recommends that these patients be isolated either in the hospital or at home (depending on how sick they are) until they are better and no longer pose a risk of infecting others. How long someone is actively sick can vary so the decision on when to release someone from isolation is made on a case-by-case basis in consultation with doctors, infection prevention and control experts, and public health officials and involves considering specifics of each situation including disease severity, illness signs and symptoms, and results of laboratory testing for that patient. Current CDC guidance for when it is OK to release someone from isolation is made on a case by case basis and includes meeting all of the following requirements:</p>
+                <ul>
+                    <li> The patient is free from fever without the use of fever-reducing medications.</li>
+                    <li>The patient is no longer showing symptoms, including cough.</li>
+                    <li>The patient has tested negative on at least two consecutive respiratory specimens collected at least 24 hours apart.</li>
+                    <li> Someone who has been released from isolation is not considered to pose a risk of infection to others.</li>
+                </ul>
+        
+            </div>
+            <div class="section">
+                <h5>Can someone who has been quarantined for COVID-19 spread the illness to others?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.</p>
+            </div>
+        
+            <div class="section">
+                <h5>Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>oronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom. It may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.</p>
+            </div>
+        
+            <div class="section">
+                <h5>Will warm weather stop the outbreak of COVID-19?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>It is not yet known whether weather and temperature impact the spread of COVID-19. Some other viruses, like the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months. At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer. There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing.</p>
+            </div>
+        
+            <div class="section">
+                <h5>What is community spread?</h5>
+                <img src="plus.svg" width="20px" id="plus" onclick="togglePluMinus(event)">
+        
+            </div>
+            <hr style="width: 90%;">
+            <div class="dropdown">
+                <p>Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./Script/infoScript.js"></script>
+</body>
+</html>
